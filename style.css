@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.display {
+    height: 100px;
+    width: 400px;
+    border: 3px solid black;
+    margin: 20px;
+    margin-top: 30px;
+    font-size: 60px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.innerDisplay {
+    margin-right: 20px;
+}
+
+
+.calculator{
+    margin-top: 150px;
+    height: 620px;
+    width: 450px;
+    border: 5px solid black;
+}
+
+.buttons {
+    margin: 20px;
+}
+
+button{
+    width: 90px;
+    height: 80px;
+    margin: 4px;
+}
+
+.clear{
+    width: 396px;
+}
