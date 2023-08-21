@@ -55,7 +55,10 @@ function operate(b, operator, a){
 function display(button){
 
     if(button.target.textContent == "clear"){
-        return; 
+        numArray = [];
+        screenDisplay.textContent = 0;
+        console.log(numArray);
+        return;
     }
     else if(button.target.textContent == "="){
         if(numArray.length > 2){
@@ -121,6 +124,7 @@ buts.forEach(button => {
     button.addEventListener('click', display)
 })
 
+screenDisplay.textContent = 0;
 
 
 
