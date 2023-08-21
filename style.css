@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: end;
     align-items: center;
+    background-color: white;
 }
 
 .innerDisplay {
@@ -24,6 +25,7 @@ body {
     height: 620px;
     width: 450px;
     border: 5px solid black;
+    background-color: grey;
 }
 
 .buttons {
@@ -34,8 +36,17 @@ button{
     width: 90px;
     height: 80px;
     margin: 4px;
+    background-color: white;
+    font-size: 30px;
 }
 
 .clear{
     width: 396px;
+    background-color: rgb(199, 53, 16);
+    color: white;
+}
+
+.op {
+    background-color: black;
+    color: white;
 }
